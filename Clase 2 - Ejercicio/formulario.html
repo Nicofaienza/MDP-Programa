@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de ingreso - MDP Programa</title>
+    <link rel="stylesheet" href="formulario.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1 id="form-title">Formulario de ingreso a MDP Programa</h1>
+      <div id="inputs-container">
+        <label for="name">
+          <input
+            class="text-input"
+            type="text"
+            id="name"
+            placeholder="Nombre" />
+        </label>
+        <label for="last-name"
+          ><input
+            class="text-input"
+            type="text"
+            id="last-name"
+            placeholder="Apellido" />
+        </label>
+        <label for="country">
+          <input
+            class="text-input"
+            type="text"
+            id="country"
+            placeholder="Pais" />
+        </label>
+        <label for="email">
+          <input
+            class="text-input"
+            type="email"
+            id="email"
+            placeholder="Email" />
+        </label>
+      </div>
+
+      <div id="question-container">
+        <span>¿Trabajas actualmente?</span>
+        <label for="worker">
+          <input type="radio" id="worker" name="work" value="Si" />Si
+        </label>
+        <label for="workless">
+          <input type="radio" id="workless" name="work" value="No" checked />No
+        </label>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
