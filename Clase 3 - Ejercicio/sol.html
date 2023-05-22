@@ -8,77 +8,105 @@
   </head>
   <body>
     <table>
-      <thead>
-        <h1>El Sol</h1>
+      <thead align="center">
+        <tr>
+          <td colspan="2"><h1>El Sol</h1></td>
+        </tr>
       </thead>
 
       <tbody>
         <tr>
-          <img
-            src="https://okdiario.com/img/2019/11/20/-por-que-brilla-el-sol-esta-es-la-razon-655x368.jpg"
-            alt="El Sol" />
+          <td colspan="2">
+            <div
+              style="
+                width: 100%;
+                height: 350px;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              ">
+              <img
+                width="80%"
+                src="https://okdiario.com/img/2019/11/20/-por-que-brilla-el-sol-esta-es-la-razon-655x368.jpg"
+                alt="El Sol" />
+            </div>
+          </td>
         </tr>
 
         <tr>
-          <td>
-            <p>
-              <strong>El Sol</strong> (del latín sol, <em>solis</em>, ‘dios Sol
-              invictus’ o ‘sol’, a su vez de la raíz
-              <em>protoindoeuropea sauel</em>-, ‘luz’)4​ es una estrella de
-              tipo-G de la secuencia principal y clase de luminosidad V que se
-              encuentra en el centro del sistema solar y constituye la mayor
-              fuente de radiación electromagnética de este sistema planetario.5​
-              Es una esfera casi perfecta de plasma, con un movimiento
-              convectivo interno que genera un campo magnético a través de un
-              proceso de dinamo. Cerca de tres cuartas partes de la masa del Sol
-              constan de hidrógeno; el resto es principalmente helio, con
-              cantidades mucho más pequeñas de elementos, incluyendo el oxígeno,
-              carbono, neón y hierro.
+          <td style="width: 50%; padding: 0 100px">
+            <p style="font-size: 18px">
+              El Sol (del latín sol, <em>solis</em>, ‘dios Sol invictus’ o
+              ‘sol’, a su vez de la raíz <em>protoindoeuropea sauel</em>-,
+              ‘luz’)4​ es una estrella de tipo-G de la secuencia principal y
+              clase de luminosidad V que se encuentra en el centro del sistema
+              solar y constituye la mayor fuente de radiación electromagnética
+              de este sistema planetario.5​ Es una esfera casi perfecta de
+              plasma, con un movimiento convectivo interno que genera un campo
+              magnético a través de un proceso de dinamo. Cerca de tres cuartas
+              partes de la masa del Sol constan de hidrógeno; el resto es
+              principalmente helio, con cantidades mucho más pequeñas de
+              elementos, incluyendo el oxígeno, carbono, neón y hierro.
             </p>
+
+            <h2>Datos derivados de la observación terrestre</h2>
+            <ul>
+              <li>
+                <strong> Distancia media desde la Tierra:</strong> 149 597 870
+                700 m (~ 1,5 × 1011 m)
+              </li>
+              <li><strong>Brillo visual (V):</strong> −26,8</li>
+              <li><strong>Diám. angular en el perihelio:</strong> 32′35,64″</li>
+              <li><strong>Diám. angular en el afelio:</strong> 31′31,34″</li>
+              <li><strong>Índice color (U-B):</strong> +0,10</li>
+              <li><strong>Índice color (B-V):</strong> +0,63</li>
+            </ul>
           </td>
-          <td>
+          <td align="center">
             <img
               src="https://img.freepik.com/vector-premium/vector-dibujos-animados-sol-amarillo-brillando-luces-sombras-sol-ambiente-verano-tela-carteles-ninos_506530-1565.jpg"
-              alt="Sol dibujado" />
+              alt="Sol dibujado"
+              height="350px" />
           </td>
         </tr>
 
         <tr>
-          <td>
+          <td></td>
+          <td align="center">
             <table>
               <tr>
-                <label for="name">Nombre</label>
+                <td>
+                  <label for="name">Nombre:</label>
+                </td>
+                <td><input id="name" type="text" /></td>
               </tr>
-              <tr>
-                <label for="email">Email</label>
-              </tr>
-              <tr>
-                <label for="password">Contraseña</label>
-              </tr>
-            </table>
-          </td>
-          <td>
-            <table>
-              <tr>
-                <input id="name" type="text" />
-              </tr>
-              <tr>
-                <input id="email" type="email" />
-              </tr>
-              <tr>
-                <input id="password" type="password" />
-              </tr>
-            </table>
-          </td>
-        </tr>
 
-        <tr>
-          <button type="submit">Enviar</button>
+              <tr>
+                <td>
+                  <label for="email">Email:</label>
+                </td>
+                <td><input id="email" type="email" /></td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="password">Contraseña:</label>
+                </td>
+                <td><input id="password" type="password" /></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><button type="submit">Enviar</button></td>
+              </tr>
+            </table>
+          </td>
         </tr>
       </tbody>
       <tfoot>
         <tr>
-          <td>Realizado por: Nicolás Faienza</td>
+          <td align="right">
+            Realizado por: <strong>Nicolás Faienza </strong>|
+          </td>
           <td>
             <a href="https://github.com/Nicofaienza" target="_blank">Github</a>
           </td>
