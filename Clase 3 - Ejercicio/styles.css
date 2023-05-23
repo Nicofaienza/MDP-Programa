@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#header {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+#header-container {
+  height: 100%;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+#header-container a {
+  text-decoration: none;
+  color: #2c2cfd;
+  font-size: 1.1em;
+}
+
+#logo {
+  height: 50px;
+}
+
+#logo-title {
+  font-size: 60px;
+  line-height: 0;
+}
+
+#main-container {
+  justify-content: space-between;
+}
+
+#aside {
+  width: 25%;
+}
+
+#list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.list-item {
+  font-size: 1.2em;
+}
+
+.list-item span {
+  font-weight: bold;
+}
+
+#main {
+  width: 70%;
+}
+
+#main-text {
+  font-size: 1.4em;
+  line-height: 1.3;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#section-below {
+  margin-top: 56px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#section-below p {
+  width: 70%;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#img-moon {
+  height: 200px;
+  border-radius: 50%;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  justify-content: space-between;
+}
+
+#footer > span {
+  font-size: 1.1em;
+}
+
+#footer span span {
+  color: #999;
+}
+
+#footer a {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #ccc;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#footer a:hover {
+  background-color: #aaa;
+}
